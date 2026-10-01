@@ -1,171 +1,124 @@
-# Observatório de Inovação de São José dos Campos (API) 
+# Observatório de Inovação de São José dos Campos — Seven Solutions
+
+Projeto da **Aprendizagem por Projetos Integrados (API)** do 1º semestre do curso de Tecnologia em Logística da **Fatec São José dos Campos "Professor Jessen Vidal"**, em parceria com o **CADI e a Secretaria de Inovação e Desenvolvimento Econômico de São José dos Campos**.
+
+Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos.
 
 # Índice
-
+* [Projeto (API)](#projeto-api)
 * [Equipe](#equipe)
 * [Objetivo do Projeto](#objetivo-do-projeto)
-* [Funcionalidades e registros (vídeos e apresentações)](#funcionalidades-e-registros-(vídeos-e-apresentações)-das-sprints)
-* [Cronograma das Sprints](#Cronograma-das-Sprints)
-* [Backlog do produto](#Backlog-do-produto)
-* [Burndown](#Burndown)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Personas](#personas)
+* [Product Backlog](#product-backlog)
+* [Critérios de Aceitação](#critérios-de-aceitação)
 * [Competências desenvolvidas](#competências-desenvolvidas)
-* [Autores](#autores)
-  
-* 
-
-# Projeto (API) 
+* [Registro das Sprints](#registro-das-sprints)
 
 
-Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e mentalidade ágil. 
-Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO). 
-Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprints
+# Projeto (API)
+Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e mentalidade ágil.
+Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO).
+Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprints.
 
-Sprint | Previsão | Status| Histórico|
-|------|--------|------|--------|
-|Kick Off | dd/mm/aaaa | concluído| [Ver Relatório](https://fatecsjc-prd.azurewebsites.net/downloads/estagio/modelo_relatorio_estagio_gpi.docx) | 
-|01 | dd/mm/aaaa | em progresso| [Ver Relatório](https://fatecsjc-prd.azurewebsites.net/downloads/estagio/modelo_relatorio_estagio_gpi.docx) | 
-|02|  dd/mm/aaaa| em progresso |[Ver Relatório](https://fatecsjc-prd.azurewebsites.net/downloads/estagio/modelo_relatorio_estagio_gpi.docx) | 
-|03| dd/mm/aaaa | a fazer|[Ver Relatório](https://fatecsjc-prd.azurewebsites.net/downloads/estagio/modelo_relatorio_estagio_gpi.docx) | 
-|04| dd/mm/aaaa |a fazer |[Ver Relatório](https://fatecsjc-prd.azurewebsites.net/downloads/estagio/modelo_relatorio_estagio_gpi.docx)  | 
-|Feira de Soluções|dd/mm/aaaa |a fazer |[Ver Relatório](https://fatecsjc-prd.azurewebsites.net/downloads/estagio/modelo_relatorio_estagio_gpi.docx) | 
-
-
-# Micro Certificações
-Futuramente
-
-<p align="center">
- <img src="https://img.shields.io/badge/STATUS-EM_PROGRESSO-yellow"/>
-</p>
-
+**Tema do semestre:** Mapeamento do Ecossistema Industrial e de Serviços da Região de São José dos Campos.
 
 # Equipe
-<p align="center">
-  <img src="imagens/capa-observatorio.png" width="800">
-</p>
+|    Função     | Nome                                   | LinkedIn & GitHub |
+| :-----------: | :------------------------------------- | :---------------: |
+| Product Owner | João Carlos Florencio de Sousa         | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+| Scrum Master  | Gessika                                | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+|  Team Member  | Integrante 3                           | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+|  Team Member  | Integrante 4                           | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+|  Team Member  | Integrante 5                           | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+|  Team Member  | Integrante 6                           | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+|  Team Member  | Integrante 7                           | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
 
 
-## Objetivo do Projeto
-Este projeto tem como objetivo apresentar indicadores econômicos que formentem 
-o desenvolvimento de um ecossistema de inovação 
-em São José dos Campos.
+# Objetivo do Projeto
+Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plataforma de visualização de dados em Power BI que apresenta indicadores econômicos e produtivos do município a partir da base da **RAIS** (Relação Anual de Informações Sociais), do Ministério do Trabalho e Emprego, visando:
+* Identificar e organizar informações sobre os principais setores industriais e de serviços da região;
+* Representar a distribuição geográfica das empresas e setores produtivos;
+* Apresentar indicadores de emprego (admissões, desligamentos e saldo) por setor;
+* Apoiar a tomada de decisão de gestores públicos, empresas parceiras, potenciais investidores e cidadãos;
+* Fomentar o diálogo entre governo, empresas e academia, segundo o modelo da **hélice tríplice**.
 
-
-# Funcionalidades e registros (vídeos e apresentações) das sprints
-
-Apresentação 
-
-[![Vídeo Kick Off](https://img.youtube.com/vi/QslzWlds1wI/0.jpg)](https://youtu.be/QslzWlds1wI)
 
 ## Tecnologias Utilizadas
-   
-  *Google Colab - Execução do código em nuvem
-  
-  *Python - Filtragem da base RAIS em SJC
-  
-  *Excel - Tratamento e organização da base
-  
-  *Teams - Reuniões e comunicação da equipe
-  
-  *Power BI - Construção de DashBoards
-  
-  *Canva - Identidade visual e materiais
-  
-  *ChatGPT - Apoio à programação generativa
-  
-  *Claude - Associação de correspondências
-  
 
- 
-
-# Cronograma das Sprints
-
-## Cronograma
-Ao clicar você será redirecionado ao cronograma detalhado desse projeto, lá é possivel encontar as datas das atividades, o responsável por cada atividade, o estágio em que cada atividade se encontra e a qual sprint cada atividade pertence.
-
-#### Cronograma das Sprints[(clique aqui)](https://github.com/users/AndreLuizRibeiro/projects/4)
-
-# Backlog do produto
-  
-<div align="center">
-    
-![product backlog](https://user-images.githubusercontent.com/69374340/172057734-320d9e43-19e9-409a-8f2d-7d159a1aaa9a.png)
-![sprint backlog](https://user-images.githubusercontent.com/69374340/172057787-dcc1ecce-1b08-464b-850e-7019dc050056.png)
-</div>
-
-Regras de Negócio
-- 
-
-Requisitos funcionais 
-- Conteúdo da apresentação   
-- Relatórios 
-- Experiência do usuário ao oferecer algo mais (UX)
-
-  
-## Requisitos não funcionais
-
-- Usar tecnologias especifícas/apoio/tecnológicas
-- Metodologias ágil
-- Power BI / Jira / Canvas
-  
-User stories
-
-# Burndown
-![sprint backlog](https://github.com/RoqueMoura/Template/blob/main/.img/Burndown.PNG)
+| Tecnologia | Uso no projeto | Requisito |
+|------------|----------------|-----------|
+| Google Colab | Acesso e organização dos dados públicos e institucionais | RN.P.1 |
+| Python 3+ | Extração, filtragem (município de SJC) e tratamento dos dados da RAIS | RN.P.2 |
+| Power BI | Visualização dos dados no Observatório | RN.P.3 |
+| GitHub | Versionamento do código e documentação técnica | RN.P.4 |
 
 
-## Sprint 1. Concepção
-- [x] Acesso público: disponibilizar o Observatório sem login, garantindo acesso às informações econômicas do
-   município conforme a Lei de Acesso à Informação (LAI).
-- [x] Criação do vídeo
-- [x] Base de dados RAIS: automatizar a extração dos dados nacionais da RAIS e filtrar os registros de São José dos Campos;
-- [x] Página inicial: apresentar um resumo executivo com os principais indicadores econômicos de São José dos Campos;
-- [x] Mapa econômico: disponibilizar um mapa dos principais setores industriais e de serviços da região;
-- [x] Filtros de pesquisa: permitir filtros por: Setor econômico; Período; Porte da empresa.
-- [x] Objetivo geral: facilitar o acesso, análise e utilização de dados econômicos de São José dos Campos por cidadãos, gestores públicos e integrantes do ecossistema de inovação.
+# Personas
+
+| Tipo de Usuário | Descrição / Interesse Principal | Necessidade Representativa |
+|-----------------|---------------------------------|----------------------------|
+| Gestor Público | Servidores da Secretaria de Desenvolvimento Econômico/CADI responsáveis por planejar políticas de fomento industrial e de inovação | Identificar setores estratégicos e monitorar o desenvolvimento econômico da cidade |
+| Empresa Parceira | Empresas já estabelecidas na região, integrantes do ecossistema de inovação de SJC | Mapear sinergias, fornecedores e possíveis parcerias no mesmo setor ou com soluções agregadoras de valor |
+| Parceiro em Potencial | Empresas ou investidores externos avaliando a instalação de operações na região | Comparar indicadores entre setores para embasar decisões de investimento |
+| Cidadão (pesquisadores, estudantes e jornalistas) | Acesso ao painel para fins acadêmicos, jornalísticos ou de acesso à informação | Consultar dados abertos, confiáveis e com metodologia transparente |
 
 
+# Product Backlog
+
+| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
+|------|------------|------------|------------|--------|-----------------------|
+| 1  | Alta  | Como sociedade civil, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre a economia do município (Lei de Acesso à Informação) | 3  | 1 | RN.P.3, RN.P.5 |
+| 2  | Alta  | Como usuário do Observatório, quero navegar por uma página inicial com um resumo executivo dos principais indicadores econômicos de São José dos Campos, para ter uma visão geral rápida antes de aprofundar a análise | 5  | 1 | RN.P.3, RN.P.5 |
+| 3  | Alta  | Como equipe de desenvolvimento, quero automatizar a extração dos dados da base RAIS nacional e filtrar apenas os registros do município de São José dos Campos, para garantir uma base de dados confiável e atualizável | 13 | 1 | RN.P.1, RN.P.2 |
+| 4  | Alta  | Como equipe de desenvolvimento, quero versionar os scripts de tratamento de dados e a documentação do projeto no GitHub, para garantir rastreabilidade, colaboração e transparência do processo | 2  | 1 | RN.P.4, RN.P.6 |
+| 5  | Alta  | Como gestor público, quero visualizar um mapa dos setores industriais e de serviços predominantes na região, para identificar oportunidades de fomento e atração de investimentos | 8  | 1 | RN.P.3, RN.P.5 |
+| 6  | Alta  | Como membro do ecossistema de inovação, quero utilizar filtros por setor econômico, período e porte da empresa, para localizar rapidamente a informação relevante para minha análise | 5  | 1 | RN.P.3, RN.P.5 |
+| 7  | Alta  | Como gestor público, quero visualizar indicadores de admissões e desligamentos por setor, para compreender a dinâmica do mercado de trabalho local e orientar políticas públicas | 5  | 2 | RN.P.3 |
+| 8  | Alta  | Como gestor público, quero acompanhar a evolução do saldo de empregos (admissões menos desligamentos) por setor ao longo do tempo, para monitorar a saúde econômica regional | 5  | 2 | RN.P.3 |
+| 9  | Alta  | Como gestor público, quero visualizar, no mesmo painel, indicadores relacionados aos três eixos da hélice tríplice (governo, empresas e academia), para embasar políticas de fomento ao diálogo entre esses atores | 8  | 2 | RN.P.3, RN.P.5 |
+| 10 | Alta  | Como empresa parceira, quero identificar outras empresas do mesmo setor produtivo presentes na região, para mapear possíveis sinergias, fornecedores ou parcerias estratégicas | 8  | 2 | RN.P.3 |
+| 11 | Alta  | Como empresa parceira, quero visualizar a distribuição geográfica das empresas por setor no município, para identificar clusters produtivos próximos ao meu negócio | 8  | 2 | RN.P.3, RN.P.5 |
+| 12 | Média | Como parceiro em potencial, quero comparar indicadores econômicos entre diferentes setores da região, para apoiar minha decisão sobre onde investir ou instalar uma nova operação | 5  | 3 | RN.P.3 |
+| 13 | Alta  | Como gestor público, quero identificar setores com altas taxas de desligamento, para direcionar políticas de requalificação profissional e apoio ao emprego | 3  | 3 | RN.P.3 |
+| 14 | Média | Como estudante ou pesquisador, quero visualizar gráficos comparativos da evolução do emprego por setor ao longo dos anos, para compreender tendências econômicas da região | 3  | 3 | RN.P.3, RN.P.5 |
+| 15 | Média | Como pesquisador, quero visualizar a classificação das atividades econômicas segundo a CNAE, para relacionar os dados da RAIS a categorias produtivas reconhecidas academicamente | 5  | 3 | RN.P.2, RN.P.3 |
+| 16 | Média | Como empresa parceira, quero visualizar quais setores concentram a maior geração de empregos formais, para identificar players relevantes para possíveis parcerias | 3  | 3 | RN.P.3 |
+
+> Estimativas em *story points* (escala de Fibonacci). O backlog é passível de revisão e refinamento ao longo das Sprints, em conjunto com o cliente.
+
+
+# Critérios de Aceitação
+
+**"Como empresa parceira ou em potencial, quero visualizar os principais motores econômicos da região, conseguir estimar os melhores espaços de inserção de oportunidade e parcerias comerciais e de desenvolvimento no município de São José dos Campos."**
+* O painel deve apresentar a distribuição geográfica das empresas;
+* As empresas abertas a parcerias devem ser distinguidas através de selo de cooperação em inovação;
+* O resultado do processamento de empresas do ecossistema de inovação deve ser exposto em painel único, possibilitando filtragem por cadeia produtiva ou setor econômico;
+* Os dados macroeconômicos da região devem ser expostos em primeiro plano.
+
+**"Como gestor público, quero visualizar, no mesmo painel, as principais empresas e seus respectivos setores produtivos, para embasar políticas de fomento ao diálogo entre esses atores e o desenvolvimento econômico da região."**
+* O painel deve apresentar uma seção específica que relacione indicadores das empresas com planta no município e sua relevância econômica na cidade;
+* Deve ser possível filtrar a visualização por setor produtivo;
+* A navegação deve ser fluida e intuitiva;
+* Deve haver indicação clara da fonte de cada indicador exibido.
 
 
 # Competências desenvolvidas
-
-## Hard Skill (saber tecnológico)
-<details>
-<summary>Hard Skills desenvolvidas</summary>
-  
-| Tecnologia/Metodologia | Classificação |
-| ---------------------- | ------------- |
-| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+* Introdução aos fundamentos de cadeia de suprimentos;
+* Leitura, organização e interpretação de dados econômicos e industriais;
+* Pensamento computacional aplicado a problemas reais;
+* Comunicação técnica e elaboração de relatórios;
+* Trabalho em equipe e organização de projetos;
+* Visão sistêmica de processos produtivos e de serviços;
+* Uso de ferramentas digitais para análise e visualização de dados;
+* Metodologia ágil para planejamento e execução do projeto.
 
 
- 
-</details>
+# Registro das Sprints
 
-## Soft Skill (saber comportamental)
-<details>
-<summary>Soft Skills desenvolvidas</summary>
-
-| Habilidades | Classificação |
-| ---------------------- | ------------- |
-| Colaboração | ★ ★ ★ ★ ★ ★ ★ ★ ☆ ☆ |
-| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-
-</details>
-
-# Autores
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Product Owner |   João Carlos        |     [![Linkedin Badge](https://www.linkedin.com/in/fsjoaocarlos?utm_source=share_via&utm_content=profile&utm_medium=member_ios)](https://www.linkedin.com/in/joaomarcosoliveiraa) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/JoaoM-py)              |
-| Scrum Master  | Maria Gessika |      [![Linkedin Badge]((https://www.linkedin.com/in/maria-gessika-da-silva-44b900153?utm_source=share_via&utm_content=profile&utm_medium=member_ios))](https://www.linkedin.com/in/mariagabrielareis/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MariaGabrielaReis)     |
-| Team Member   | Giovanna Ferreira              |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-nepomuceno-04943720a/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Nepoun)        |
-|  Team Member  | Enzo                 |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/caio-vitor-c1/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/CaioVitorDias1)        |
-|  Team Member  | Carlos                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-camargo-915452196/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GabrielCamargoL)   |
-|  Team Member  | Thais       |           [![Linkedin Badge](https://www.linkedin.com/in/thais-ambrósio-3a3a581aa?utm_source=share_via&utm_content=profile&utm_medium=member_ios)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gioliveirass)          |
-
-
+| Sprint            | Previsão   | Status   | Histórico |
+|-------------------|------------|----------|-----------|
+| 01                | 28/09/2026 | a fazer  | [MVP](MVP/sp1.md)  |
+| 02                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp2.md)  |
+| 03                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp3.md)  |
+| Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#)  |
